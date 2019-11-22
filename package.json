@@ -1,0 +1,614 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1569774346000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2019-09-29T00:00:00&endtime=2019-09-29T01:00:00&format=geojson",
+    "title": "USGS Earthquakes",
+    "status": 200,
+    "api": "1.8.1",
+    "count": 15
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3100000000000001,
+        "place": "15km ESE of Little Lake, CA",
+        "time": 1569718732910,
+        "updated": 1569718954733,
+        "tz": -480,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ci",
+        "code": "39099416",
+        "ids": ",ci39099416,",
+        "sources": ",ci,",
+        "types": ",geoserve,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 9,
+        "dmin": 0.073940000000000006,
+        "rms": 0.26000000000000001,
+        "gap": 166,
+        "magType": "ml",
+        "type": "earthquake"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.759,
+          35.8825,
+          15.25
+        ]
+      },
+      "id": "ci39099416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1899999999999999,
+        "place": "12km SE of Pinnacles, CA",
+        "time": 1569718568670,
+        "updated": 1569723123019,
+        "tz": -480,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73282920",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc73282920&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "nc",
+        "code": "73282920",
+        "ids": ",nc73282920,",
+        "sources": ",nc,",
+        "types": ",geoserve,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 19,
+        "dmin": 0.017680000000000001,
+        "rms": 0.089999999999999997,
+        "gap": 112,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 12km SE of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.04083249999999,
+          36.466331500000003,
+          6.6100000000000003
+        ]
+      },
+      "id": "nc73282920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.59999999999999998,
+        "place": "13km WNW of Anza, CA",
+        "time": 1569718540840,
+        "updated": 1569718764647,
+        "tz": -480,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39099400",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci39099400&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ci",
+        "code": "39099400",
+        "ids": ",ci39099400,",
+        "sources": ",ci,",
+        "types": ",geoserve,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.034680000000000002,
+        "rms": 0.13,
+        "gap": 91,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 13km WNW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.80549999999999,
+          33.5966667,
+          5.46
+        ]
+      },
+      "id": "ci39099400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9099999999999999,
+        "place": "7km SE of Pahala, Hawaii",
+        "time": 1569718318300,
+        "updated": 1569718550400,
+        "tz": -600,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv71155601",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv71155601&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "hv",
+        "code": "71155601",
+        "ids": ",hv71155601,",
+        "sources": ",hv,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.038940000000000002,
+        "rms": 0.11,
+        "gap": 172,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 7km SE of Pahala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.42317199999999,
+          19.168167100000002,
+          37.079999999999998
+        ]
+      },
+      "id": "hv71155601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6200000000000001,
+        "place": "10km S of Searles Valley, CA",
+        "time": 1569717766510,
+        "updated": 1569717996571,
+        "tz": -480,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39099376",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci39099376&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 40,
+        "net": "ci",
+        "code": "39099376",
+        "ids": ",ci39099376,",
+        "sources": ",ci,",
+        "types": ",geoserve,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.017860000000000001,
+        "rms": 0.16,
+        "gap": 138,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 10km S of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4205,
+          35.682833299999999,
+          2.1600000000000001
+        ]
+      },
+      "id": "ci39099376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.78000000000000003,
+        "place": "6km WNW of The Geysers, CA",
+        "time": 1569717443650,
+        "updated": 1569720543540,
+        "tz": -480,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73282910",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc73282910&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "73282910",
+        "ids": ",nc73282910,",
+        "sources": ",nc,",
+        "types": ",geoserve,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 10,
+        "dmin": 0.0079710000000000007,
+        "rms": 0.02,
+        "gap": 89,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 6km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8198318,
+          38.805667900000003,
+          2.77
+        ]
+      },
+      "id": "nc73282910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.90000000000000002,
+        "place": "7km NW of The Geysers, CA",
+        "time": 1569717396550,
+        "updated": 1569722225712,
+        "tz": -480,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73282915",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc73282915&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "nc",
+        "code": "73282915",
+        "ids": ",nc73282915,",
+        "sources": ",nc,",
+        "types": ",geoserve,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 16,
+        "dmin": 0.0053689999999999996,
+        "rms": 0.02,
+        "gap": 49,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.9 - 7km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8116684,
+          38.818164799999998,
+          2.46
+        ]
+      },
+      "id": "nc73282915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2599999999999998,
+        "place": "28km NW of San Antonio, Puerto Rico",
+        "time": 1569717277690,
+        "updated": 1569741438529,
+        "tz": -240,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2019272007",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr2019272007&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 79,
+        "net": "pr",
+        "code": "2019272007",
+        "ids": ",pr2019272007,",
+        "sources": ",pr,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.27239999999999998,
+        "rms": 0.54000000000000004,
+        "gap": 312,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 28km NW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.277600000000007,
+          18.6831,
+          19
+        ]
+      },
+      "id": "pr2019272007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8100000000000001,
+        "place": "5km SE of Pahala, Hawaii",
+        "time": 1569716541020,
+        "updated": 1569716767840,
+        "tz": -600,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv71155581",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv71155581&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "hv",
+        "code": "71155581",
+        "ids": ",hv71155581,",
+        "sources": ",hv,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.019709999999999998,
+        "rms": 0.12,
+        "gap": 180,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 5km SE of Pahala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.4448395,
+          19.1665001,
+          33.299999999999997
+        ]
+      },
+      "id": "hv71155581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4199999999999999,
+        "place": "17km S of Lopez Point, CA",
+        "time": 1569716538910,
+        "updated": 1569718922673,
+        "tz": -480,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73282905",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc73282905&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 90,
+        "net": "nc",
+        "code": "73282905",
+        "ids": ",nc73282905,",
+        "sources": ",nc,",
+        "types": ",geoserve,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.2888,
+        "rms": 0.14000000000000001,
+        "gap": 221,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 17km S of Lopez Point, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.5373306,
+          35.868000000000002,
+          1.75
+        ]
+      },
+      "id": "nc73282905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5800000000000001,
+        "place": "50km N of Isabela, Puerto Rico",
+        "time": 1569715992780,
+        "updated": 1569741425929,
+        "tz": -240,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2019272005",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr2019272005&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "pr",
+        "code": "2019272005",
+        "ids": ",pr2019272005,",
+        "sources": ",pr,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.48020000000000002,
+        "rms": 0.66000000000000003,
+        "gap": 224,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 50km N of Isabela, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.103800000000007,
+          18.947600000000001,
+          50
+        ]
+      },
+      "id": "pr2019272005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.65000000000000002,
+        "place": "22km ESE of Anza, CA",
+        "time": 1569715741320,
+        "updated": 1569715965119,
+        "tz": -480,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39099344",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci39099344&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ci",
+        "code": "39099344",
+        "ids": ",ci39099344,",
+        "sources": ",ci,",
+        "types": ",geoserve,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.1056,
+        "rms": 0.11,
+        "gap": 108,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 22km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4601667,
+          33.469833299999998,
+          12.029999999999999
+        ]
+      },
+      "id": "ci39099344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2999999999999998,
+        "place": "22km N of Searles Valley, CA",
+        "time": 1569715283070,
+        "updated": 1569715938760,
+        "tz": -480,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39099336",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci39099336&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "ci",
+        "code": "39099336",
+        "ids": ",ci39099336,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,geoserve,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.1168,
+        "rms": 0.17999999999999999,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 22km N of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4068333,
+          35.961833300000002,
+          1.75
+        ]
+      },
+      "id": "ci39099336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3999999999999999,
+        "place": "72km SE of Coldfoot, Alaska",
+        "time": 1569715251656,
+        "updated": 1569715491099,
+        "tz": -540,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak019chu6iaw",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ak019chu6iaw&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 30,
+        "net": "ak",
+        "code": "019chu6iaw",
+        "ids": ",ak019chu6iaw,",
+        "sources": ",ak,",
+        "types": ",geoserve,origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.67000000000000004,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 72km SE of Coldfoot, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.96440000000001,
+          66.809600000000003,
+          3.7000000000000002
+        ]
+      },
+      "id": "ak019chu6iaw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7799999999999998,
+        "place": "59km N of Isabela, Puerto Rico",
+        "time": 1569715247470,
+        "updated": 1569741410905,
+        "tz": -240,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2019272006",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr2019272006&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 119,
+        "net": "pr",
+        "code": "2019272006",
+        "ids": ",pr2019272006,",
+        "sources": ",pr,",
+        "types": ",geoserve,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.57010000000000005,
+        "rms": 0.45000000000000001,
+        "gap": 230,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 59km N of Isabela, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.101100000000002,
+          19.037500000000001,
+          8
+        ]
+      },
+      "id": "pr2019272006"
+    }
+  ],
+  "bbox": [
+    -155.4448395,
+    18.6831,
+    1.75,
+    -67.1011,
+    66.8096,
+    50
+  ]
+}
