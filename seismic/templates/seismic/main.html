@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Correlation</title>
+</head>
+<body>
+<div class="row" id="row" style="padding-top: 50px;">
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">dt</th>
+            <th scope="col">value</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for cor in data %}
+            <tr>
+                <td>{{ cor.dt }}</td>
+                <td>{{ cor.val }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

@@ -43,23 +43,17 @@ if __name__ == '__main__':
         event.depth = random.random() * 10
 
         weather = Weather()
-        weather.latitude = random.random() * 10
-        weather.longitude = random.random() * 10
-        weather.time = datetime.now()
-        weather.precipIntensity = random.random() * 10
-        weather.precipProbability = random.random() * 10
-        weather.temperature = random.random() * 10
-        weather.apparentTemperature = random.random() * 10
-        weather.dewPoint = random.random() * 10
+        weather.lat = random.random() * 10
+        weather.lon = random.random() * 10
+        weather.dt = datetime.now()
+        weather.temp = random.random() * 10
         weather.humidity = random.random() * 10
         weather.pressure = random.random() * 10
         weather.windSpeed = random.random() * 10
         weather.windGust = random.random() * 10
-        weather.windBearing = random.random() * 10
-        weather.cloudCover = random.random() * 10
-        weather.uvIndex = random.random() * 10
+        weather.windDeg = random.random() * 10
+        weather.clouds = random.random() * 10
         weather.visibility = random.random() * 10
-        weather.ozone = random.random() * 10
 
         events.append(event)
         weathers.append(weather)

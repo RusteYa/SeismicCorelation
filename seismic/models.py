@@ -33,22 +33,21 @@ class SeismicEvent(DjangoCassandraModel):
 
 class Weather(DjangoCassandraModel):
     id = columns.UUID(primary_key=True, default=uuid.uuid4)
-    latitude = columns.Double()
-    longitude = columns.Double()
-    time = columns.DateTime()
-    precipIntensity = columns.Double()
-    precipProbability = columns.Double()
-    temperature = columns.Double()
-    apparentTemperature = columns.Double()
-    dewPoint = columns.Double()
-    humidity = columns.Double()
+    lon = columns.Double()
+    lat = columns.Double()
+    dt = columns.DateTime()
+    temp = columns.Double()
     pressure = columns.Double()
+    humidity = columns.Double()
+    visibility = columns.Double()
     windSpeed = columns.Double()
     windGust = columns.Double()
-    windBearing = columns.Double()
-    cloudCover = columns.Double()
-    uvIndex = columns.Double()
-    visibility = columns.Double()
-    ozone = columns.Double()
+    windDeg = columns.Double()
+    clouds = columns.Double()
 
+
+class Correlation(DjangoCassandraModel):
+    id = columns.UUID(primary_key=True, default=uuid.uuid4)
+    dt = columns.DateTime()
+    val = columns.Double()
 

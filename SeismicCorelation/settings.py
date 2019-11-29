@@ -25,9 +25,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'zm7xgdsk$+8cj&j#m_t!=t&(l$ay!3&5%m2)^&l#m196%3(e&o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-54-85-45-18.compute-1.amazonaws.com', '127.0.0.0',]
+ALLOWED_HOSTS = ['ec2-54-85-45-18.compute-1.amazonaws.com', '127.0.0.0', '127.0.0.1']
 
 # Application definition
 
@@ -88,7 +88,7 @@ DATABASES = {
         'NAME': 'db',
         'USER': 'ubuntu',
         'PASSWORD': '',
-        'HOST': 'ec2-54-166-137-35.compute-1.amazonaws.com',
+        'HOST': 'ec2-18-232-164-87.compute-1.amazonaws.com',
         'OPTIONS': {
             'replication': {
                 'strategy_class': 'SimpleStrategy',
