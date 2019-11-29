@@ -85,7 +85,6 @@ def insert_weather():
 
 
 def count_correlation():
-    time.sleep(3600.0)
     starttime = time.time()
     while True:
         events = SeismicEvent.objects.all()
@@ -93,12 +92,12 @@ def count_correlation():
         wind_speeds = []
         for event in events:
             gte = datetime.datetime(
-                year=event.dt.year,
-                month=event.dt.year,
-                day=event.dt.day,
-                hour=event.dt.hour,
-                minute=event.dt.minute,
-                second=event.dt.second
+                year=event.time.year,
+                month=event.time.year,
+                day=event.time.day,
+                hour=event.time.hour,
+                minute=event.time.minute,
+                second=event.time.second
             )
             lte = gte + datetime.timedelta(seconds=1)
             weather = Weather.objects.filter(dt__gte=gte, dt__lte=lte).first()
