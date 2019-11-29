@@ -31,8 +31,8 @@ def insert_seismic():
                 event = SeismicEvent()
                 event.mag = e['properties']['mag']
                 event.place = e['properties']['place']
-                event.time = datetime.datetime.fromtimestamp(e['properties']['time'])
-                event.updated = datetime.datetime.fromtimestamp(e['properties']['updated'])
+                event.time = datetime.datetime.fromtimestamp(e['properties']['time']/1000)
+                event.updated = datetime.datetime.fromtimestamp(e['properties']['updated']/1000)
                 event.tz = e['properties']['tz']
                 event.status = e['properties']['status']
                 event.tsunami = e['properties']['tsunami']
