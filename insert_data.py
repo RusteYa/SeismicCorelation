@@ -24,33 +24,34 @@ def insert_seismic():
         })
         starttime = time.time()
 
-        events = data.json()['features']
+        if 'features' in data.json():
+            events = data.json()['features']
 
-        for e in events:
-            event = SeismicEvent()
-            event.mag = e['properties']['mag']
-            event.place = e['properties']['place']
-            event.time = e['properties']['time']
-            event.updated = e['properties']['updated']
-            event.tz = e['properties']['tz']
-            event.status = e['properties']['status']
-            event.tsunami = e['properties']['tsunami']
-            event.sig = e['properties']['sig']
-            event.net = e['properties']['net']
-            event.code = e['properties']['code']
-            event.ids = e['properties']['ids']
-            event.sources = e['properties']['sources']
-            event.types = e['properties']['types']
-            event.nst = e['properties']['nst']
-            event.dmin = e['properties']['dmin']
-            event.rms = e['properties']['rms']
-            event.gap = e['properties']['gap']
-            event.magType = e['properties']['magType']
-            event.type = e['properties']['type']
-            event.longitude = e['geometry']['coordinates'][0]
-            event.latitude = e['geometry']['coordinates'][1]
-            event.depth = e['geometry']['coordinates'][2]
-            event.save()
+            for e in events:
+                event = SeismicEvent()
+                event.mag = e['properties']['mag']
+                event.place = e['properties']['place']
+                event.time = e['properties']['time']
+                event.updated = e['properties']['updated']
+                event.tz = e['properties']['tz']
+                event.status = e['properties']['status']
+                event.tsunami = e['properties']['tsunami']
+                event.sig = e['properties']['sig']
+                event.net = e['properties']['net']
+                event.code = e['properties']['code']
+                event.ids = e['properties']['ids']
+                event.sources = e['properties']['sources']
+                event.types = e['properties']['types']
+                event.nst = e['properties']['nst']
+                event.dmin = e['properties']['dmin']
+                event.rms = e['properties']['rms']
+                event.gap = e['properties']['gap']
+                event.magType = e['properties']['magType']
+                event.type = e['properties']['type']
+                event.longitude = e['geometry']['coordinates'][0]
+                event.latitude = e['geometry']['coordinates'][1]
+                event.depth = e['geometry']['coordinates'][2]
+                event.save()
 
         time.sleep(300.0 - time.time() + starttime)
 
@@ -65,19 +66,20 @@ def insert_weather():
         })
         w = data.json()
 
-        weather = Weather()
-        weather.lon = w['coord']['lon']
-        weather.lat = w['coord']['lat']
-        weather.dt = datetime.datetime.now() - datetime.timedelta(hours=5)
-        weather.temp = w['main']['temp']
-        weather.pressure = w['main']['pressure']
-        weather.humidity = w['main']['humidity']
-        weather.visibility = w['visibility']
-        weather.windSpeed = w['wind']['speed']
-        weather.windGust = w['wind']['deg']
-        weather.windDeg = w['wind']['gust']
-        weather.clouds = w['clouds']['all']
-        weather.save()
+        if 'coord' in w:
+            weather = Weather()
+            weather.lon = w['coord']['lon']
+            weather.lat = w['coord']['lat']
+            weather.dt = datetime.datetime.now() - datetime.timedelta(hours=5)
+            weather.temp = w['main']['temp']
+            weather.pressure = w['main']['pressure']
+            weather.humidity = w['main']['humidity']
+            weather.visibility = w['visibility']
+            weather.windSpeed = w['wind']['speed']
+            weather.windGust = w['wind']['deg']
+            weather.windDeg = w['wind']['gust']
+            weather.clouds = w['clouds']['all']
+            weather.save()
 
         time.sleep(1.0 - ((time.time() - starttime) % 1.0))
 

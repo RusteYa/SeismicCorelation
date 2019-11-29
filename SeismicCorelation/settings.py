@@ -88,7 +88,7 @@ DATABASES = {
         'NAME': 'db',
         'USER': 'ubuntu',
         'PASSWORD': '',
-        'HOST': 'ec2-18-232-164-87.compute-1.amazonaws.com',
+        'HOST': 'ip-172-31-32-137.ec2.internal',
         'OPTIONS': {
             'replication': {
                 'strategy_class': 'SimpleStrategy',
