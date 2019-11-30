@@ -93,7 +93,7 @@ def count_correlation():
         for event in events:
             gte = datetime.datetime(
                 year=event.time.year,
-                month=event.time.year,
+                month=event.time.month,
                 day=event.time.day,
                 hour=event.time.hour,
                 minute=event.time.minute,
