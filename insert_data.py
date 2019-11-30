@@ -70,7 +70,7 @@ def insert_weather():
             weather = Weather()
             weather.lon = w['coord']['lon']
             weather.lat = w['coord']['lat']
-            weather.dt = datetime.datetime.now() - datetime.timedelta(hours=3)
+            weather.dt = datetime.datetime.utcnow()
             weather.temp = w['main']['temp']
             weather.pressure = w['main']['pressure']
             weather.humidity = w['main']['humidity']
@@ -113,7 +113,7 @@ def count_correlation():
 
         cor = Correlation()
         cor.val = numpy.corrcoef(event_magnitudes, wind_speeds)[0, 1]
-        cor.dt = datetime.datetime.now() - datetime.timedelta(hours=3)
+        cor.dt = datetime.datetime.utcnow()
         cor.save()
 
         time.sleep(3600.0 - ((time.time() - starttime) % 3600.0))
