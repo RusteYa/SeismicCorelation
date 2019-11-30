@@ -76,8 +76,7 @@ def insert_weather():
             weather.humidity = w['main']['humidity']
             weather.visibility = w['visibility']
             weather.windSpeed = w['wind']['speed']
-            weather.windGust = w['wind']['deg']
-            weather.windDeg = w['wind']['gust']
+            weather.windDeg = w['wind']['deg']
             weather.clouds = w['clouds']['all']
             weather.save()
 

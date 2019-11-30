@@ -41,7 +41,6 @@ class Weather(DjangoCassandraModel):
     humidity = columns.Double()
     visibility = columns.Double()
     windSpeed = columns.Double()
-    windGust = columns.Double()
     windDeg = columns.Double()
     clouds = columns.Double()
 
