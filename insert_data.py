@@ -8,8 +8,8 @@ LATITUDE = 35
 LONGITUDE = -117
 MAXRADIUSKM = 200
 SEISMIC_URL = "https://earthquake.usgs.gov/fdsnws/event/1/query"
-WEATHER_URL = "https://openweathermap.org/data/2.5/weather"
-APPID = 'b6907d289e10d714a6e88b30761fae22'
+WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather"
+APPID = '048532a13c4497741ec64e2d46f4df39'
 
 
 def insert_seismic():
@@ -66,7 +66,7 @@ def insert_weather():
         })
         w = data.json()
 
-        if 'coord' in w:
+        if w['cod'] == 200:
             weather = Weather()
             weather.lon = w['coord']['lon']
             weather.lat = w['coord']['lat']
